@@ -2,8 +2,8 @@ sumber
 https://chatgpt.com/share/691d78bd-ea30-8006-9f6c-de943bd450f0
 
 Documentation API
-Get : http://127.0.0.1:8000/biodata
-Post : http://127.0.0.1:8000/biodata
+Get : http://127.0.0.1:8000/api/biodata
+Post : http://127.0.0.1:8000/api/biodata
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 

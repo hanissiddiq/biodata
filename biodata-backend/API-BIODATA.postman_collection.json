@@ -1,0 +1,77 @@
+{
+	"info": {
+		"_postman_id": "979174a7-dbc4-4fe8-979c-097b7604bd97",
+		"name": "API-BIODATA",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "3331622",
+		"_collection_link": "https://universal-equinox-936479.postman.co/workspace/API_Bioadata~a48fb497-bbf6-4183-b582-14c3c484afa0/collection/3331622-979174a7-dbc4-4fe8-979c-097b7604bd97?action=share&source=collection_link&creator=3331622"
+	},
+	"item": [
+		{
+			"name": "GET-DATA-Bioadata",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/biodata",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"biodata"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST-DATA-Bioadata",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "nama",
+							"value": "hanisQ",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "hanissiddiq@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "foto",
+							"type": "file",
+							"src": []
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/biodata",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"biodata"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
