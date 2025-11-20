@@ -5,6 +5,12 @@ Documentation API
 Get : http://127.0.0.1:8000/api/biodata
 Post : http://127.0.0.1:8000/api/biodata
 
+Buka project biodata-frontend
+1. jalankan ```npm run dev``` dan jalankan juga ```php artisan serve``` untuk menjalankan Laravel API yang berada di biodata-backend
+2. pastikan sudah buat db_biodata dan import ke phpmyadmin
+3. masukkan perintah ```php artisan migrate``` dan ```php artisan storage:link```
+4. project nextJS berjalan di ```http://localhost:3000/biodata``` atau ```http://localhost:3000```
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
